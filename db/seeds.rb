@@ -10,3 +10,8 @@
 
 user= User.where(email: "larriquesantiago@gmail.com").first_or_initialize
 user.update!(password: "tattaa", password_confirmation: "tattaa")
+
+
+# 100.times do |i|
+  # BlogPost.create(title:"Post number #{i}", content: "This is the content of post number #{i}", published_at: Time.current)
+# end
